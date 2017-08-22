@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Brendt\\": "src/Brendt/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "larapack/dd": "^1.1"
+    }
+}
