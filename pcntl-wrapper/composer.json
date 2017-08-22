@@ -1,0 +1,23 @@
+{
+    "name": "brendt/pcntl-wrapper",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "ext-pcntl": "*"
+    },
+    "require-dev": {
+        "symfony/console": "^3.3",
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brendt\\Pcntl\\": "src/Brendt/Pcntl"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brendt\\Command\\": "demo/Brendt/Command"
+        }
+    }
+}
