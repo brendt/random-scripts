@@ -1,0 +1,14 @@
+{
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\": "src/Http/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "larapack/dd": "^1.1"
+    }
+}
